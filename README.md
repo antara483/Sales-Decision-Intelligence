@@ -19,6 +19,29 @@ Instead of focusing on adding more pipeline, this system prioritizes **smarter d
 
 ![Win Rate By Quarter Chart](screenshot/win_rate_by_quarter.png)
 
+---
+
+## 📂 Dataset
+
+This project uses a simulated B2B SaaS sales dataset containing 5,000 deals with the following fields:
+* `deal_id`
+* `sales_rep_id`
+* `deal_amount`
+* `sales_cycle_days`
+* `deal_stage`
+* `lead_source`
+* `product_type`
+* `region`
+* `industry`
+* `outcome`
+* `created_date`
+* `closed_date`
+
+The dataset represents CRM-style historical deal data used to analyze win rate trends and build a risk scoring system.
+
+---
+
+
 # My Approach
 
 ### 1️. Business Problem Framing
@@ -30,6 +53,7 @@ The CRO reported:
 This suggests that the issue is not deal quantity, but deal quality, prioritization, and conversion efficiency.
 
 ---
+
 
 ### 2️. Data Exploration
 
