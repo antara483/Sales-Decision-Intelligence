@@ -19,9 +19,9 @@ Instead of focusing on adding more pipeline, this system prioritizes **smarter d
 
 ![Win Rate By Quarter Chart](screenshot/win_rate_by_quarter.png)
 
-# 🧠 Your Approach
+# My Approach
 
-### 1️⃣ Business Problem Framing
+### 1️ Business Problem Framing
 
 The CRO reported:
 
@@ -31,7 +31,7 @@ This suggests that the issue is not deal quantity, but deal quality, prioritizat
 
 ---
 
-### 2️⃣ Data Exploration
+### 2️ Data Exploration
 
 I performed exploratory analysis to understand:
 
@@ -44,7 +44,7 @@ This helped identify patterns and potential performance gaps.
 
 ---
 
-### 3️⃣ Custom Metrics
+### 3️ Custom Metrics
 
 To move beyond standard metrics, I created:
 
@@ -79,7 +79,7 @@ Lower score → potential stagnation
 
 ---
 
-### 4️⃣ Risk Categorization
+### 4️ Risk Categorization
 
 Deals were bucketed into:
 
@@ -91,13 +91,13 @@ This converts raw scores into **clear business priorities**.
 
 ---
 
-### 5️⃣ Pipeline Exposure Analysis
+### 5️ Pipeline Exposure Analysis
 
 I evaluated how much total pipeline value exists within each risk bucket to understand revenue concentration risk.
 
 ---
 
-### 6️⃣ Mini System Design
+### 6️ Mini System Design
 
 I designed a lightweight Sales Insight & Alert System:
 
@@ -114,7 +114,7 @@ The system provides:
 
 # ⚙️ How to Run the Project
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/sales-decision-intelligence.git
@@ -123,7 +123,7 @@ cd sales-decision-intelligence
 
 ---
 
-### 2️⃣ Create Virtual Environment (Optional)
+### 2️ Create Virtual Environment (Optional)
 
 ```bash
 python -m venv venv
@@ -133,7 +133,7 @@ venv\Scripts\activate      # Windows
 
 ---
 
-### 3️⃣ Install Dependencies
+### 3️ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -141,7 +141,7 @@ pip install -r requirements.txt
 
 ---
 
-### 4️⃣ Run the Notebook
+### 4️ Run the Notebook
 
 Open:
 
@@ -160,13 +160,13 @@ Run all cells to reproduce:
 
 # 🎯 Key Decisions
 
-### 1️⃣ Chose Rule-Based Risk Scoring
+### 1️ Chose Rule-Based Risk Scoring
 
 Instead of complex ML models, I used interpretable logic based on deal size and duration. This keeps the system explainable and aligned with business users.
 
 ---
 
-### 2️⃣ Focused on Actionability Over Accuracy
+### 2️ Focused on Actionability Over Accuracy
 
 The objective was not Kaggle-style prediction accuracy, but building a system that:
 
@@ -176,13 +176,13 @@ The objective was not Kaggle-style prediction accuracy, but building a system th
 
 ---
 
-### 3️⃣ Normalization for Interpretability
+### 3️ Normalization for Interpretability
 
 Both deal size and sales cycle were normalized to ensure risk scores are comparable and easy to interpret (0–1 range).
 
 ---
 
-### 4️⃣ Emphasized Revenue Exposure
+### 4️ Emphasized Revenue Exposure
 
 Rather than only counting risky deals, I measured how much pipeline value sits in high-risk buckets.
 
@@ -190,7 +190,7 @@ This aligns directly with executive-level concerns.
 
 ---
 
-### 5️⃣ Designed for Extensibility
+### 5️ Designed for Extensibility
 
 The system can evolve into:
 
@@ -227,7 +227,3 @@ This project demonstrates how simple, interpretable analytics can evolve into a 
 The focus was on clarity, actionability, and real-world practicality.
 
 ---
-
-
-* Make it shorter and sharper
-* Or optimize it specifically for recr
